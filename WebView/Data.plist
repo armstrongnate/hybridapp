@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tabbed</key>
+	<true/>
+	<key>tabs</key>
+	<array>
+		<dict>
+			<key>index</key>
+			<integer>3</integer>
+			<key>title</key>
+			<string>Notifications</string>
+			<key>icon</key>
+			<string>notifications.png</string>
+			<key>url</key>
+			<string>/notifications.json</string>
+			<key>navigation</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>index</key>
+			<integer>2</integer>
+			<key>title</key>
+			<string>Messages</string>
+			<key>icon</key>
+			<string>messages.png</string>
+			<key>url</key>
+			<string>/messages.json</string>
+			<key>navigation</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>navigation</key>
+			<true/>
+			<key>url</key>
+			<string>/profile.json</string>
+			<key>icon</key>
+			<string>profile.png</string>
+			<key>title</key>
+			<string>Profile</string>
+			<key>index</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>index</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Wires</string>
+			<key>icon</key>
+			<string>home.png</string>
+			<key>url</key>
+			<string>/wires.json</string>
+			<key>navigation</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
